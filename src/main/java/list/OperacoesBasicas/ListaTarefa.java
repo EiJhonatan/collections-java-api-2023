@@ -45,6 +45,8 @@ public class ListaTarefa {
     // Criando uma instância da classe ListaTarefa
     ListaTarefa listaTarefa = new ListaTarefa();
 
+    System.out.println(" o numero total de elementos na lista e: " + listaTarefa.obterNumeroTotalTarefas());
+
     // Adicionando tarefas à lista
     listaTarefa.adicionarTarefa("Comprar leite");
     listaTarefa.adicionarTarefa("Estudar para o exame");
